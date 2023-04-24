@@ -4,7 +4,28 @@
     "web": {
       "bundler": "metro"
     },
-    "name": "native_jobs",
-    "slug": "native_jobs"
+    "name": "native jobs",
+    "slug": "native-jobs",
+    "description": "The app to ease job search on the internet",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/nativeIcon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    }
   }
 }
